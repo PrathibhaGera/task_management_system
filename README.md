@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+Assignment Title: Build a Basic Task Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Objective:
 
-## Available Scripts
+Develop a simple Task Management System that allows users to create, view, update, and delete
+tasks. The system should focus on core CRUD operations, usability, and efficient code structure.
 
-In the project directory, you can run:
+Requirements:
 
-### `npm start`
+1. Backend:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Use Python (Flask/FastAPI) or Node.js to create a RESTful API with endpoints for:
+- Creating a new task (title, description, due date, status).
+- Viewing all tasks.
+- Updating an existing task.
+- Deleting a task.
+- Tasks should be stored in an SQLite database for simplicity.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. Frontend:
 
-### `npm test`
+- Build a minimal UI using HTML/CSS/JavaScript or a lightweight framework like React.
+- Features should include:
+- A form to create a new task.
+- A list view to display all tasks.
+- Edit and delete buttons for each task.
+- Filters to view tasks by status (e.g., Pending, Completed).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Additional Features (Optional for Extra Credit):
 
-### `npm run build`
+- Add a status change feature with a toggle between Pending and Completed.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Internship Assignment: Personal Finance Tracker
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Include basic error handling (e.g., validation for empty fields).
+- Add a confirmation prompt before deleting a task.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Submission Requirements:
 
-### `npm run eject`
+1. Submit the complete project code in a GitHub repository with a clear
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+README.md. 2. Include instructions to set up and run the project locally. 3. (Optional) Record a short demo video showing the app's functionality.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Evaluation Criteria
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Functionality: Does the app support all required CRUD operations?
+2. Code Quality: Is the code clean, modular, and well-documented?

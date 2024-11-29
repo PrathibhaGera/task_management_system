@@ -1,5 +1,7 @@
 import { Component } from "react";
+
 import "./index.css";
+
 class TaskDashBoard extends Component {
   state = {
     userInput: "",
@@ -59,6 +61,7 @@ class TaskDashBoard extends Component {
 
   render() {
     const { userInput, userDescription, tasks } = this.state;
+
     return (
       <>
         <div className="task-dashboard-container">
